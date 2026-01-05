@@ -1,3 +1,7 @@
+if (sales.length == 0) {
+    System.out.println("No sales data available");
+    return;
+}
 int maxSales = 0;
 String bestProduct = "";
 
